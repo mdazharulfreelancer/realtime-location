@@ -1,4 +1,4 @@
-const socket = io('https://real-time-backend-v.vercel.app/');
+const socket = io('https://real-time-backend-production.up.railway.app');
 if(navigator.geolocation){
 navigator.geolocation.watchPosition((position)=>{
     const {latitude, longitude} = position.coords;

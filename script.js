@@ -1,4 +1,4 @@
-const socket = io("https://real-time-backend-azhar.vercel.app");
+const socket = io("https://real-time-backend-v.vercel.app");
 
 if(navigator.geolocation){
 navigator.geolocation.watchPosition((position)=>{

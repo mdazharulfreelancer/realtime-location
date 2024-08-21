@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "proxy": "https://real-time-backend-v.vercel.app",
+  "proxy": "https://real-time-backend-production.up.railway.app",
   "type": "module",
   "scripts": {
     "dev": "vite",

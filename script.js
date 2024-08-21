@@ -1,6 +1,4 @@
-const socket = io('https://real-time-backend-v.vercel.app/', {
-  transports: ['websocket'] // Ensure WebSocket transport is specified
-});
+const socket = io('https://real-time-backend-v.vercel.app/');
 if(navigator.geolocation){
 navigator.geolocation.watchPosition((position)=>{
     const {latitude, longitude} = position.coords;
